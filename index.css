@@ -1,0 +1,42 @@
+body {
+  background: url("./img/fon.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-top: 150px;
+  border-radius: 13px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper .check {
+  align-items: center;
+  display: flex;
+}
+.wrapper .check input {
+  padding: 6px;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+  background-color: cornsilk;
+  border: none;
+  border: 1px solid darkorange;
+}
+.wrapper .check button {
+  cursor: pointer;
+  border-radius: 5px;
+  height: 20px;
+  padding: 16px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color: darkorange;
+  border: none;
+}/*# sourceMappingURL=index.css.map */
